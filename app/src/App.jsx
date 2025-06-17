@@ -8,6 +8,7 @@ function App() {
 
   return <div>
     <h1>Welcome to Hopin!</h1>
+    <p>"— Hop in. Sip. Rate. Repeat."</p>
     <BeerList beers={beers} />
   </div>;
 }

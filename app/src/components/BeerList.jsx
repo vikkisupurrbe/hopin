@@ -3,7 +3,7 @@ import BeerCard from "./BeerCard";
 function BeerList({ beers }) {
   return (
     <div>
-      <h2>All the beers we have reviewed:</h2>
+      <h2>All the craft beers we have reviewed:</h2>
       <ul>
         {beers.map((beer) => (
           <li key={beer.id}>
