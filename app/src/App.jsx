@@ -1,6 +1,6 @@
 import { useState } from "react";
 import BeerList from "./components/BeerList";
-import beerData from './data/beers.json';
+import beerData from '../../data/beers.json';
 
 
 function App() {

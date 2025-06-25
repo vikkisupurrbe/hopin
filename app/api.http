@@ -1,0 +1,35 @@
+# Test API requests using REST Client
+
+# Get all beers
+GET http://localhost:3002/beers HTTP/1.1
+Content-Type: application/json
+
+###
+
+# Create a beer
+POST http://localhost:3002/beers HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Apricot Pear Radler",
+  "brewery": "Academy",
+  "rating": 4
+}
+
+###
+
+# Update a beer
+PUT http://localhost:3002/beers/1 HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Apricot Pear Radler",
+  "brewery": "Academy",
+  "rating": 3
+}
+
+###
+
+# Delete a beer
+DELETE http://localhost:3002/beers/1 HTTP/1.1
+Content-Type: application/json

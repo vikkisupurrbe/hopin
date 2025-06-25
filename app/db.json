@@ -1,0 +1,10 @@
+{
+  "beers": [
+    {
+      "name": "Apricot Pear Radler",
+      "brewery": "Academy",
+      "rating": 4,
+      "id": 1
+    }
+  ]
+}

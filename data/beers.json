@@ -1,0 +1,884 @@
+[
+  {
+    "id": 1,
+    "name": "33 Acres of Darkness Schwarzbier/Dark Lager",
+    "brewery": "33 Acres",
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "name": "33 Acres of Euphoria Belgian Tripel",
+    "brewery": "33 Acres",
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "name": "33 Acres of Life California Common",
+    "brewery": "33 Acres",
+    "rating": 3.5
+  },
+  {
+    "id": 4,
+    "name": "33 Acres of Sunshine French Blanche",
+    "brewery": "33 Acres",
+    "rating": 3.5
+  },
+  {
+    "id": 5,
+    "name": "New Zealand Hazy Pale Ale",
+    "brewery": "33 Acres",
+    "rating": 3.5
+  },
+  {
+    "id": 6,
+    "name": "Alpha Juicy Lager",
+    "brewery": "Academy",
+    "rating": 3
+  },
+  {
+    "id": 7,
+    "name": "Apricot Pear Radler",
+    "brewery": "Academy",
+    "rating": 4
+  },
+  {
+    "id": 8,
+    "name": "Mango Passionfruit Radler",
+    "brewery": "Academy",
+    "rating": 3
+  },
+  {
+    "id": 9,
+    "name": "Peach Lime Radler",
+    "brewery": "Academy",
+    "rating": 3.5
+  },
+  {
+    "id": 10,
+    "name": "Raspberry Guava Radler",
+    "brewery": "Academy",
+    "rating": 4
+  },
+  {
+    "id": 11,
+    "name": "Okanagan Cream Ale",
+    "brewery": "Aframe",
+    "rating": 4
+  },
+  {
+    "id": 12,
+    "name": "Floor is Guava Sour",
+    "brewery": "Backcountry",
+    "rating": 4
+  },
+  {
+    "id": 13,
+    "name": "OMG They Killed Kenny Red Ale",
+    "brewery": "Backcountry",
+    "rating": 4.5
+  },
+  {
+    "id": 14,
+    "name": "Passionfruit Orange Guava Sour",
+    "brewery": "Backcountry",
+    "rating": 4.5
+  },
+  {
+    "id": 15,
+    "name": "Questions Wild Pale Ale",
+    "brewery": "Backcountry",
+    "rating": 3.5
+  },
+  {
+    "id": 16,
+    "name": "Salted Lime Lager",
+    "brewery": "Backcountry",
+    "rating": 4
+  },
+  {
+    "id": 17,
+    "name": "Shark Repellent Hazy IPA",
+    "brewery": "Backcountry",
+    "rating": 4
+  },
+  {
+    "id": 18,
+    "name": "Shortcut Oatmeal Stout",
+    "brewery": "Backcountry",
+    "rating": 4
+  },
+  {
+    "id": 19,
+    "name": "Spicy Mango Sour",
+    "brewery": "Backcountry",
+    "rating": 3
+  },
+  {
+    "id": 20,
+    "name": "Turbo Lover Barrel Aged Imperial Stout",
+    "brewery": "Backcountry",
+    "rating": 3.5
+  },
+  {
+    "id": 21,
+    "name": "Where You Already Are Mexican Lime Lager",
+    "brewery": "Backcountry",
+    "rating": 4
+  },
+  {
+    "id": 22,
+    "name": "Widowmaker IPA",
+    "brewery": "Backcountry",
+    "rating": 4
+  },
+  {
+    "id": 23,
+    "name": "Bold and Beautiful Hefeweizen",
+    "brewery": "Brave",
+    "rating": 4
+  },
+  {
+    "id": 24,
+    "name": "Bourbon Blood Orange Wheat Ale",
+    "brewery": "Bridge",
+    "rating": 4
+  },
+  {
+    "id": 25,
+    "name": "Seedless Watermelon Wheat Ale",
+    "brewery": "Bridge",
+    "rating": 4
+  },
+  {
+    "id": 26,
+    "name": "Birra Bellisima Italian Style Pilsner",
+    "brewery": "Cannery",
+    "rating": 3.5
+  },
+  {
+    "id": 27,
+    "name": "Grapefruit Radler",
+    "brewery": "Cannery",
+    "rating": 4
+  },
+  {
+    "id": 28,
+    "name": "Lakeboat German Style Lager",
+    "brewery": "Cannery",
+    "rating": 3.5
+  },
+  {
+    "id": 29,
+    "name": "Naramata Nut Brown Ale",
+    "brewery": "Cannery",
+    "rating": 4
+  },
+  {
+    "id": 30,
+    "name": "Japan Pale Ale",
+    "brewery": "Coedo",
+    "rating": 3.5
+  },
+  {
+    "id": 31,
+    "name": "10° Belgian-style Quadrupel",
+    "brewery": "Dageraad",
+    "rating": 4.5
+  },
+  {
+    "id": 32,
+    "name": "Antigoon Belgian-style Strong Golden Ale",
+    "brewery": "Dageraad",
+    "rating": 3.5
+  },
+  {
+    "id": 33,
+    "name": "Blonde Ale",
+    "brewery": "Dageraad",
+    "rating": 3.5
+  },
+  {
+    "id": 34,
+    "name": "Brune Belgian Abbey-style Dubbel",
+    "brewery": "Dageraad",
+    "rating": 4
+  },
+  {
+    "id": 35,
+    "name": "Burnabarian Belgian-style Table Beer",
+    "brewery": "Dageraad",
+    "rating": 4.5
+  },
+  {
+    "id": 36,
+    "name": "Dagerlaager Old World Pilsner",
+    "brewery": "Dageraad",
+    "rating": 4
+  },
+  {
+    "id": 37,
+    "name": "De Witte Wheat Ale",
+    "brewery": "Dageraad",
+    "rating": 4
+  },
+  {
+    "id": 38,
+    "name": "Entropy 16 Raspberry Sour",
+    "brewery": "Dageraad",
+    "rating": 3
+  },
+  {
+    "id": 39,
+    "name": "Entropy 29 Nectarine Sour",
+    "brewery": "Dageraad",
+    "rating": 3
+  },
+  {
+    "id": 40,
+    "name": "Helleraad Lager",
+    "brewery": "Dageraad",
+    "rating": 4
+  },
+  {
+    "id": 41,
+    "name": "Manhattan Barrel Aged Beer",
+    "brewery": "Dageraad",
+    "rating": 4.5
+  },
+  {
+    "id": 42,
+    "name": "Neushoorn Mixed-culture Ale",
+    "brewery": "Dageraad",
+    "rating": 2.5
+  },
+  {
+    "id": 43,
+    "name": "Rise Up Dry-hopped Lager",
+    "brewery": "Dageraad",
+    "rating": 3.5
+  },
+  {
+    "id": 44,
+    "name": "Rozedag Blonde Ale",
+    "brewery": "Dageraad",
+    "rating": 4
+  },
+  {
+    "id": 45,
+    "name": "Sri Lanka Belgian-style Dubbel",
+    "brewery": "Dageraad",
+    "rating": 4
+  },
+  {
+    "id": 46,
+    "name": "Uncomfortable Silence Dark Belgian-style Ale",
+    "brewery": "Dageraad",
+    "rating": 3
+  },
+  {
+    "id": 47,
+    "name": "Union Graf Beer-cider Hybrid",
+    "brewery": "Dageraad",
+    "rating": 2
+  },
+  {
+    "id": 48,
+    "name": "White Belgian-style Witbier",
+    "brewery": "Dageraad",
+    "rating": 3.5
+  },
+  {
+    "id": 49,
+    "name": "Peach Creamsicle",
+    "brewery": "Dead Frog",
+    "rating": 3
+  },
+  {
+    "id": 50,
+    "name": "Banana Hefeweizen",
+    "brewery": "East Van",
+    "rating": 3
+  },
+  {
+    "id": 51,
+    "name": "Rice Lager",
+    "brewery": "East Van",
+    "rating": 3
+  },
+  {
+    "id": 52,
+    "name": "Sourveza",
+    "brewery": "Faculty",
+    "rating": 3.5
+  },
+  {
+    "id": 53,
+    "name": "Sparkling Citrus Mimosa Sour",
+    "brewery": "Field House",
+    "rating": 3.5
+  },
+  {
+    "id": 54,
+    "name": "Pilsner",
+    "brewery": "Four Winds",
+    "rating": 3.5
+  },
+  {
+    "id": 55,
+    "name": "Super Sonic Strawberry Wit",
+    "brewery": "Fuggles",
+    "rating": 4
+  },
+  {
+    "id": 56,
+    "name": "Mach5 Mango Wit",
+    "brewery": "Fuggles",
+    "rating": 5
+  },
+  {
+    "id": 57,
+    "name": "Bean Me Up Espresso Milk Stout",
+    "brewery": "Fuggles",
+    "rating": 3
+  },
+  {
+    "id": 58,
+    "name": "Pixel Pils",
+    "brewery": "Fuggles",
+    "rating": 3.5
+  },
+  {
+    "id": 59,
+    "name": "Gin and Lime Pilsner",
+    "brewery": "Fuggles",
+    "rating": 3.5
+  },
+  {
+    "id": 60,
+    "name": "Kiwami Plum Sour",
+    "brewery": "Fuggles",
+    "rating": 3
+  },
+  {
+    "id": 61,
+    "name": "Javaverse Vanilla Cream Cold Brew Coffee Stout",
+    "brewery": "Fuggles",
+    "rating": 3
+  },
+  {
+    "id": 62,
+    "name": "Angry Robot Noises Blonde Ale",
+    "brewery": "Fuggles",
+    "rating": 3.5
+  },
+  {
+    "id": 63,
+    "name": "Wannabe Mimosa Koitsch",
+    "brewery": "Fuggles",
+    "rating": 3
+  },
+  {
+    "id": 64,
+    "name": "Coconut Mocha Porter",
+    "brewery": "Fuggles",
+    "rating": 3.5
+  },
+  {
+    "id": 65,
+    "name": "Nitro Milk Stout",
+    "brewery": "Left Hand",
+    "rating": 3.5
+  },
+  {
+    "id": 66,
+    "name": "Aussie Pale Ale",
+    "brewery": "Moody Ales",
+    "rating": 3.5
+  },
+  {
+    "id": 67,
+    "name": "Blood Orange Hefeweizen",
+    "brewery": "Moody Ales",
+    "rating": 5
+  },
+  {
+    "id": 68,
+    "name": "Cherry Blossom Sour",
+    "brewery": "Moody Ales",
+    "rating": 2.5
+  },
+  {
+    "id": 69,
+    "name": "Chocolate Raspberry Kahlua Stout",
+    "brewery": "Moody Ales",
+    "rating": 3
+  },
+  {
+    "id": 70,
+    "name": "Clara Mexican-style Lager",
+    "brewery": "Moody Ales",
+    "rating": 4.5
+  },
+  {
+    "id": 71,
+    "name": "Double Dorado IIPA",
+    "brewery": "Moody Ales",
+    "rating": 3
+  },
+  {
+    "id": 72,
+    "name": "Grapefruit Paloma Sour",
+    "brewery": "Moody Ales",
+    "rating": 4
+  },
+  {
+    "id": 73,
+    "name": "Hazelnut Honey Brown",
+    "brewery": "Moody Ales",
+    "rating": 4
+  },
+  {
+    "id": 74,
+    "name": "Holler Kentucky Common",
+    "brewery": "Moody Ales",
+    "rating": 4
+  },
+  {
+    "id": 75,
+    "name": "Jitter Juice Vietnamese Coffee Stout",
+    "brewery": "Moody Ales",
+    "rating": 4
+  },
+  {
+    "id": 76,
+    "name": "Jitter Juice 2025",
+    "brewery": "Moody Ales",
+    "rating": 4
+  },
+  {
+    "id": 77,
+    "name": "Lavender Sour",
+    "brewery": "Moody Ales",
+    "rating": 3
+  },
+  {
+    "id": 78,
+    "name": "Lime Margarita Sour",
+    "brewery": "Moody Ales",
+    "rating": 4
+  },
+  {
+    "id": 79,
+    "name": "Made in the Shade Dark Fruited Sour",
+    "brewery": "Moody Ales",
+    "rating": 3.5
+  },
+  {
+    "id": 80,
+    "name": "Mango Guava Sour",
+    "brewery": "Moody Ales",
+    "rating": 4
+  },
+  {
+    "id": 81,
+    "name": "Mimosa Lager",
+    "brewery": "Moody Ales",
+    "rating": 4
+  },
+  {
+    "id": 82,
+    "name": "Oktoberfest Lager",
+    "brewery": "Moody Ales",
+    "rating": 4.5
+  },
+  {
+    "id": 83,
+    "name": "Orange Passionfruit Sour",
+    "brewery": "Moody Ales",
+    "rating": 4
+  },
+  {
+    "id": 84,
+    "name": "Pineapple Coconut Sour",
+    "brewery": "Moody Ales",
+    "rating": 5
+  },
+  {
+    "id": 85,
+    "name": "Premium Japanese-style Rice Lager",
+    "brewery": "Moody Ales",
+    "rating": 4
+  },
+  {
+    "id": 86,
+    "name": "Raspberry Lavender Sour",
+    "brewery": "Moody Ales",
+    "rating": 3
+  },
+  {
+    "id": 87,
+    "name": "Rocky Point Lager",
+    "brewery": "Moody Ales",
+    "rating": 4
+  },
+  {
+    "id": 88,
+    "name": "Strawberry Dream Ale",
+    "brewery": "Moody Ales",
+    "rating": 4
+  },
+  {
+    "id": 89,
+    "name": "Strawberry Jasmine Sour",
+    "brewery": "Moody Ales",
+    "rating": 3.5
+  },
+  {
+    "id": 90,
+    "name": "Tripel S.L.A.M. Belgian Tripel",
+    "brewery": "Moody Ales",
+    "rating": 4
+  },
+  {
+    "id": 91,
+    "name": "Velvet Eclipse Stout",
+    "brewery": "Moody Ales",
+    "rating": 3.5
+  },
+  {
+    "id": 92,
+    "name": "Vienna Amber Lager",
+    "brewery": "Moody Ales",
+    "rating": 4.5
+  },
+  {
+    "id": 93,
+    "name": "Viva Italian Pilsner",
+    "brewery": "Moody Ales",
+    "rating": 3
+  },
+  {
+    "id": 94,
+    "name": "Yuzu IPA",
+    "brewery": "Moody Ales",
+    "rating": 3
+  },
+  {
+    "id": 95,
+    "name": "Juicy Blueberry Wheat Ale",
+    "brewery": "Old Yale",
+    "rating": 2
+  },
+  {
+    "id": 96,
+    "name": "Berliner Weisse",
+    "brewery": "Persephone",
+    "rating": 1
+  },
+  {
+    "id": 97,
+    "name": "Goddess Golden Ale",
+    "brewery": "Persephone",
+    "rating": 3
+  },
+  {
+    "id": 98,
+    "name": "Honey Hefeweizen",
+    "brewery": "Persephone",
+    "rating": 4
+  },
+  {
+    "id": 99,
+    "name": "India Pale Ale",
+    "brewery": "Persephone",
+    "rating": 2.5
+  },
+  {
+    "id": 100,
+    "name": "Dry-Hopped Cider",
+    "brewery": "Persephone",
+    "rating": 3.5
+  },
+  {
+    "id": 101,
+    "name": "Dino Sour Stone Fruit Sour",
+    "brewery": "Phillips",
+    "rating": 4
+  },
+  {
+    "id": 102,
+    "name": "Dream Team American Pilsner",
+    "brewery": "Rewind",
+    "rating": 3
+  },
+  {
+    "id": 103,
+    "name": "Pogo Ball Blueberry Lemon Saison",
+    "brewery": "Rewind",
+    "rating": 3.5
+  },
+  {
+    "id": 104,
+    "name": "Rainbow Road Passionfruit Guava Pomegranate",
+    "brewery": "Rewind",
+    "rating": 3.5
+  },
+  {
+    "id": 105,
+    "name": "The Dark Crystal Dark Ale",
+    "brewery": "Rewind",
+    "rating": 3
+  },
+  {
+    "id": 106,
+    "name": "Oatmeal Stout",
+    "brewery": "Russell",
+    "rating": 2
+  },
+  {
+    "id": 107,
+    "name": "Grapefruit Light Lager",
+    "brewery": "Steel & Oak",
+    "rating": 3.5
+  },
+  {
+    "id": 108,
+    "name": "Orange Creamsicle Orange and Vanilla Ale",
+    "brewery": "Storm",
+    "rating": 3.5
+  },
+  {
+    "id": 109,
+    "name": "Felix American Stout",
+    "brewery": "Studio",
+    "rating": 4
+  },
+  {
+    "id": 110,
+    "name": "Small Hours Dark Lager",
+    "brewery": "Studio",
+    "rating": 3.5
+  },
+  {
+    "id": 111,
+    "name": "Black Pearl Oyster Stout",
+    "brewery": "Twin Sails",
+    "rating": 4
+  },
+  {
+    "id": 112,
+    "name": "Con Leche Horchata Stout",
+    "brewery": "Twin Sails",
+    "rating": 4.5
+  },
+  {
+    "id": 113,
+    "name": "Could Crush Watermelon Wheat Ale",
+    "brewery": "Twin Sails",
+    "rating": 5
+  },
+  {
+    "id": 114,
+    "name": "Dat Juice Citra Pale Ale",
+    "brewery": "Twin Sails",
+    "rating": 4.5
+  },
+  {
+    "id": 115,
+    "name": "Daymaker Guava Sour",
+    "brewery": "Twin Sails",
+    "rating": 3.5
+  },
+  {
+    "id": 116,
+    "name": "Disco Rabbit Pinot Noir Sour",
+    "brewery": "Twin Sails",
+    "rating": 3.5
+  },
+  {
+    "id": 117,
+    "name": "Double Dipped Double Chocolate Banana Stout",
+    "brewery": "Twin Sails",
+    "rating": 4
+  },
+  {
+    "id": 118,
+    "name": "Dual Channel IPA",
+    "brewery": "Twin Sails",
+    "rating": 4
+  },
+  {
+    "id": 119,
+    "name": "First Crush Hefeweizen",
+    "brewery": "Twin Sails",
+    "rating": 4
+  },
+  {
+    "id": 120,
+    "name": "Flex Mex Imperial Stout",
+    "brewery": "Twin Sails",
+    "rating": 4
+  },
+  {
+    "id": 121,
+    "name": "Glorious and Free Canadian IPA",
+    "brewery": "Twin Sails",
+    "rating": 4.5
+  },
+  {
+    "id": 122,
+    "name": "Good Clean Fun IPA",
+    "brewery": "Twin Sails",
+    "rating": 3.5
+  },
+  {
+    "id": 123,
+    "name": "Hot Laps Winter Ale",
+    "brewery": "Twin Sails",
+    "rating": 4
+  },
+  {
+    "id": 124,
+    "name": "Juice Plus Citra IPA",
+    "brewery": "Twin Sails",
+    "rating": 4
+  },
+  {
+    "id": 125,
+    "name": "Lights Out Coconut Stout",
+    "brewery": "Twin Sails",
+    "rating": 5
+  },
+  {
+    "id": 126,
+    "name": "Lil Gulp Radler",
+    "brewery": "Twin Sails",
+    "rating": 3.5
+  },
+  {
+    "id": 127,
+    "name": "Low Life Lager",
+    "brewery": "Twin Sails",
+    "rating": 4
+  },
+  {
+    "id": 128,
+    "name": "Low Life Lime Lager",
+    "brewery": "Twin Sails",
+    "rating": 3.5
+  },
+  {
+    "id": 129,
+    "name": "Morning Dew Pale Ale",
+    "brewery": "Twin Sails",
+    "rating": 3.5
+  },
+  {
+    "id": 130,
+    "name": "Purple Hue Plum Blackberry Sour",
+    "brewery": "Twin Sails",
+    "rating": 4
+  },
+  {
+    "id": 131,
+    "name": "Should Crush Peach Apricot Wheat Ale",
+    "brewery": "Twin Sails",
+    "rating": 4
+  },
+  {
+    "id": 132,
+    "name": "Sonne Hefeweizen",
+    "brewery": "Twin Sails",
+    "rating": 4
+  },
+  {
+    "id": 133,
+    "name": "Str8 Flexin' Barrel Aged Stout",
+    "brewery": "Twin Sails",
+    "rating": 3.5
+  },
+  {
+    "id": 134,
+    "name": "Two Straws Creamsicle Milkshake IPA",
+    "brewery": "Twin Sails",
+    "rating": 4.5
+  },
+  {
+    "id": 135,
+    "name": "Vacation Mode Peach and Passionfruit Tart Ale",
+    "brewery": "Twin Sails",
+    "rating": 4
+  },
+  {
+    "id": 136,
+    "name": "Volcano King Pineapple Coconut Double Milkshake IPA",
+    "brewery": "Twin Sails",
+    "rating": 4.5
+  },
+  {
+    "id": 137,
+    "name": "Would Crush Raspberry Wheat Ale",
+    "brewery": "Twin Sails",
+    "rating": 4.5
+  },
+  {
+    "id": 138,
+    "name": "Chase My Tail Pale Ale",
+    "brewery": "Yellow Dog",
+    "rating": 2.5
+  },
+  {
+    "id": 139,
+    "name": "El Perro Cerveza Clara",
+    "brewery": "Yellow Dog",
+    "rating": 4
+  },
+  {
+    "id": 140,
+    "name": "High 5 Hazy IPA",
+    "brewery": "Yellow Dog",
+    "rating": 4
+  },
+  {
+    "id": 141,
+    "name": "Pack Leader Pilsner",
+    "brewery": "Yellow Dog",
+    "rating": 3
+  },
+  {
+    "id": 142,
+    "name": "Rascal Japanese Rice Lager",
+    "brewery": "Yellow Dog",
+    "rating": 3.5
+  },
+  {
+    "id": 143,
+    "name": "Retriever Golden Ale",
+    "brewery": "Yellow Dog",
+    "rating": 2.5
+  },
+  {
+    "id": 144,
+    "name": "Rollover Cerveza Negra",
+    "brewery": "Yellow Dog",
+    "rating": 4
+  },
+  {
+    "id": 145,
+    "name": "Squirrel Chaser Hazy Pale Ale",
+    "brewery": "Yellow Dog",
+    "rating": 4
+  },
+  {
+    "id": 146,
+    "name": "Sun Dog Raspberry Peach Sour",
+    "brewery": "Yellow Dog",
+    "rating": 4
+  },
+  {
+    "id": 147,
+    "name": "Wave Rider Mango Pineapple Sour",
+    "brewery": "Yellow Dog",
+    "rating": 3.5
+  }
+]

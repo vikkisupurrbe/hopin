@@ -1,7 +1,7 @@
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
 
 function BeerCard({ beer }) {
-
+  // Star rating
   const renderStars = (rating) => {
     let stars = [];
 
