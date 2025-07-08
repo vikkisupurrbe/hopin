@@ -1,6 +1,25 @@
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
+import { useState } from 'react';
+import BookEdit from './BeerEdit';
 
-function BeerCard({ beer }) {
+
+function BeerCard({ beer, onDelete, onEdit }) {
+
+  const [showEdit, setShowEdit] = useState(false);
+
+  const handleDeleteClick = () => {
+    onDelete(beer.id);
+  }
+
+  const handleEditClick = () => {
+    setShowEdit(!showEdit);
+  }
+
+  const handleSubmit = (id, newName, newBrewery, newRating) => {
+    setShowEdit(false);
+    onEdit(id, newName, newBrewery, newRating)
+  }
+
   // Star rating
   const renderStars = (rating) => {
     let stars = [];
@@ -18,11 +37,25 @@ function BeerCard({ beer }) {
     return stars;
   };
 
-  return <div>
+  let content = <div>
     <h4>{beer.name}</h4>
     <p>Brewery: {beer.brewery}</p>
     <span>{renderStars(beer.rating)}</span>
   </div>
+
+  if (showEdit) {
+    content = <BookEdit beer={beer} onSubmit={handleSubmit} />;
+  }
+
+  return (
+    <div className='beer-card'>
+      {content}
+      <div className='actions'>
+        <button onClick={handleEditClick}>Edit</button>
+        <button onClick={handleDeleteClick}>Delete</button>
+      </div>
+    </div>
+  )
 }
 
 export default BeerCard;

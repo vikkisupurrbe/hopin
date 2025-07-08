@@ -1,10 +1,16 @@
 {
   "beers": [
     {
-      "name": "Apricot Pear Radler",
-      "brewery": "Academy",
-      "rating": 4,
+      "name": "Momo Lager",
+      "brewery": "Two Sails",
+      "rating": "4",
       "id": 1
+    },
+    {
+      "name": "Momo Radler",
+      "brewery": "Two Sails",
+      "rating": 3,
+      "id": 2
     }
   ]
 }
