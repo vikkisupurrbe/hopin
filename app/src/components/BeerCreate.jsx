@@ -1,10 +1,12 @@
-import { useState } from 'react';
+import { useState, useContext } from 'react';
+import BeersContext from '../context/beers';
 
-function BeerCreate ({ onCreate }) {
-
+function BeerCreate () {
   const [name, setName] = useState('');
   const [brewery, setBrewery] = useState('');
   const [rating, setRating] = useState('');
+
+  const { createBeer } = useContext(BeersContext);
 
   const handleNameChange = (event) => {
     setName(event.target.value);
@@ -20,7 +22,7 @@ function BeerCreate ({ onCreate }) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    onCreate(name, brewery, Number(rating)); // convert to number
+    createBeer(name, brewery, Number(rating)); // convert to number
     setName('');
     setBrewery('');
     setRating('');

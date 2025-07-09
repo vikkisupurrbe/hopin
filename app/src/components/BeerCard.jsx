@@ -1,24 +1,25 @@
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
-import { useState } from 'react';
+import { useState, useContext } from 'react';
+import BeersContext from "../context/beers";
 import BookEdit from './BeerEdit';
 
 
-function BeerCard({ beer, onDelete, onEdit }) {
+function BeerCard({ beer }) {
 
   const [showEdit, setShowEdit] = useState(false);
+  const { deleteBeerById } = useContext(BeersContext);
 
   const handleDeleteClick = () => {
-    onDelete(beer.id);
-  }
+    deleteBeerById(beer.id);
+  };
 
   const handleEditClick = () => {
     setShowEdit(!showEdit);
-  }
+  };
 
-  const handleSubmit = (id, newName, newBrewery, newRating) => {
+  const handleSubmit = () => {
     setShowEdit(false);
-    onEdit(id, newName, newBrewery, newRating)
-  }
+  };
 
   // Star rating
   const renderStars = (rating) => {

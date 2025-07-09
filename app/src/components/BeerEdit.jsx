@@ -1,9 +1,12 @@
-import { useState } from 'react';
+import { useState, useContext } from 'react';
+import BeersContext from '../context/beers';
 
 function BeerEdit({ beer, onSubmit }) {
   const [name, setName] = useState(beer.name);
   const [brewery, setBrewery] = useState(beer.brewery);
   const [rating, setRating] = useState(beer.rating);
+
+  const { editBeerById } = useContext(BeersContext);
 
   const handleNameChange = (event) => {
     setName(event.target.value);
@@ -19,8 +22,9 @@ function BeerEdit({ beer, onSubmit }) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    onSubmit(beer.id, name, brewery, rating);
-  }
+    onSubmit();
+    editBeerById(beer.id, name, brewery, rating)
+  };
 
   return (
     <form onSubmit={handleSubmit}>

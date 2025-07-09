@@ -1,8 +1,12 @@
+import { useContext } from "react";
+import BeersContext from "../context/beers";
 import BeerCard from "./BeerCard";
 
-function BeerList({ beers, onDelete, onEdit }) {
+function BeerList() {
+  const { beers } = useContext(BeersContext);
+
   const renderedBeers = beers.map((beer) => {
-    return <BeerCard key={beer.id} beer={beer} onDelete={onDelete} onEdit={onEdit} />
+    return <BeerCard key={beer.id} beer={beer} />
   })
 
   return (
