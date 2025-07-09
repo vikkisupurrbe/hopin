@@ -1,13 +1,13 @@
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
-import { useState, useContext } from 'react';
-import BeersContext from "../context/beers";
+import { useState } from 'react';
 import BookEdit from './BeerEdit';
+import useBeersContext from "../hooks/useBeersContext";
 
 
 function BeerCard({ beer }) {
 
   const [showEdit, setShowEdit] = useState(false);
-  const { deleteBeerById } = useContext(BeersContext);
+  const { deleteBeerById } = useBeersContext();
 
   const handleDeleteClick = () => {
     deleteBeerById(beer.id);

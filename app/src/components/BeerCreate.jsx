@@ -1,12 +1,12 @@
-import { useState, useContext } from 'react';
-import BeersContext from '../context/beers';
+import { useState } from 'react';
+import useBeersContext from '../hooks/useBeersContext';
 
 function BeerCreate () {
   const [name, setName] = useState('');
   const [brewery, setBrewery] = useState('');
   const [rating, setRating] = useState('');
 
-  const { createBeer } = useContext(BeersContext);
+  const { createBeer } = useBeersContext();
 
   const handleNameChange = (event) => {
     setName(event.target.value);
