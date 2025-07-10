@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     fetchBeers();
-  }, []);
+  }, [fetchBeers]);
 
   return <div>
     <h1>Welcome to Hopin!</h1>

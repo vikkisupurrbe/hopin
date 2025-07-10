@@ -1,4 +1,4 @@
-import { createContext, useState } from "react";
+import { createContext, useState, useCallback } from "react";
 import axios from 'axios';
 
 const BeersContext = createContext();
@@ -7,10 +7,10 @@ function Provider({ children }) {
   const [beers, setBeers] = useState([]);
 
   // Fetch beer data when the app is first loaded on to the screen
-  const fetchBeers = async () => {
+  const fetchBeers = useCallback(async () => {
     const response = await axios.get('http://localhost:3002/beers');
     setBeers(response.data);
-  };
+  }, []);
 
   // Edit beer
   const editBeerById = async (id, newName, newBrewery, newRating) => {
