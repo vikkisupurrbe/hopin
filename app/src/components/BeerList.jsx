@@ -10,7 +10,9 @@ function BeerList() {
 
   return (
     <div>
-      <h2>All the craft beers we have reviewed:</h2>
+      <h2 className="font-title font-semibold text-2xl md:text-3xl text-[#8b5e3c] mt-6 mb-2">
+        All the craft beers we have reviewed:
+      </h2>
       <div className='beer-list'>{renderedBeers}</div>
     </div>
   )
