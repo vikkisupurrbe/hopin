@@ -3,14 +3,26 @@
     {
       "name": "Momo Lager",
       "brewery": "Two Sails",
-      "rating": "4",
+      "rating": "5",
       "id": 1
+    },
+    {
+      "name": "Momo Tripel",
+      "brewery": "Two Sails",
+      "rating": 3,
+      "id": 2
+    },
+    {
+      "name": "Star Lager",
+      "brewery": "Star Walking",
+      "rating": "2",
+      "id": 3
     },
     {
       "name": "Momo IPA",
       "brewery": "Two Sails",
-      "rating": 5,
-      "id": 2
+      "rating": 2,
+      "id": 4
     }
   ]
 }
