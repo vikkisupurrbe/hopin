@@ -32,30 +32,37 @@ function BeerEdit({ beer, onSubmit }) {
       <h3 className="font-title font-semibold text-xl text-[#8b5e3c] mb-4">
         Edit Beer
       </h3>
-      <label className="font-body font-medium text-base block mb-1">
-        Name:
-      </label>
-      <input
-        value={name}
-        onChange={handleNameChange}
-        className="w-full border border-[#d9b99b] rounded-lg p-2 font-body text-sm"
-      />
-      <label className="font-body font-medium text-base block mb-1">
-        Brewery:
-      </label>
-      <input
-        value={brewery}
-        onChange={handleBreweryChange}
-        className="w-full border border-[#d9b99b] rounded-lg p-2 font-body text-sm"
-      />
-      <label className="font-body font-medium text-base block mb-1">
-        Rating:
-      </label>
-      <input
-        value={rating}
-        onChange={handleRatingChange}
-        className="w-full border border-[#d9b99b] rounded-lg p-2 font-body text-sm"
-      />
+      <div className="flex items-center gap-x-2">
+        <label className="font-body font-medium text-base w-16 text-left">
+          Name:
+        </label>
+        <input
+          value={name}
+          onChange={handleNameChange}
+          className="flex-grow border border-[#d9b99b] rounded-lg p-2 font-body text-sm"
+        />
+      </div>
+      <div className="flex items-center gap-x-2">
+        <label className="font-body font-medium text-base w-16 text-left">
+          Brewery:
+        </label>
+        <input
+          value={brewery}
+          onChange={handleBreweryChange}
+          className="flex-grow border border-[#d9b99b] rounded-lg p-2 font-body text-sm"
+        />
+      </div>
+      <div className="flex items-center gap-x-2">
+        <label className="font-body font-medium text-base w-16 text-left">
+          Rating:
+        </label>
+        <input
+          value={rating}
+          onChange={handleRatingChange}
+          className="flex-grow border border-[#d9b99b] rounded-lg p-2 font-body text-sm"
+        />
+      </div>
+
       <Button primary rounded className="font-body font-medium text-base">
         Save
       </Button>

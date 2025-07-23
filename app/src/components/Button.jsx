@@ -37,8 +37,8 @@ function Button({
       'bg-transparent': outline,
       'text-[#fbbf24] hover:bg-[#fbbf24] hover:text-[#2e2e2e] transition-colors duration-200': outline && primary,
       'text-[#8b5e3c] hover:bg-[#8b5e3c] hover:text-[#f5f3f0] transition-colors duration-200': outline && secondary,
-      'text-[#a3b18a] hover:bg-[#a3b18a] hover:text-[#2e2e2e] transition-colors duration-200': outline && success,
-      'text-[#d9b99b] hover:bg-[#d9b99b] hover:text-[#2e2e2e] transition-colors duration-200': outline && warning,
+      'text-[#a3b18a] hover:bg-[#a3b18a] hover:text-[#f5f3f0] transition-colors duration-200': outline && success,
+      'text-[#d9b99b] hover:bg-[#d9b99b] hover:text-[#f5f3f0] transition-colors duration-200': outline && warning,
       'text-[#c17767] hover:bg-[#c17767] hover:text-[#f5f3f0] transition-colors duration-200': outline && danger
     })
   );
