@@ -4,8 +4,7 @@ import BookEdit from './BeerEdit';
 import useBeersContext from "../hooks/useBeersContext";
 import Button from './Button';
 
-function BeerCard({ beer }) {
-
+function BeerCard({ beer, searchTerm }) {
   const [showEdit, setShowEdit] = useState(false);
   const { deleteBeerById } = useBeersContext();
 
@@ -38,13 +37,27 @@ function BeerCard({ beer }) {
     return stars;
   };
 
+  // Highlight matching text
+  const highlightText = (text) => {
+    if (!searchTerm) return text;
+
+    const parts = text.split(new RegExp(`(${searchTerm})`, "gi"));
+    return parts.map((part, index) =>
+      part.toLowerCase() === searchTerm.toLowerCase() ? (
+        <span key={index} className="bg-[#fbbf24] bg-opacity-40">
+          {part}
+        </span>
+      ) : part
+    );
+  };
+
   let content = (
     <div>
       <h4 className="font-title font-semibold text-lg text-[#8b5e3c] mb-2">
-        {beer.name}
+        {highlightText(beer.name)}
       </h4>
       <p className="font-body font-medium text-sm mb-2">
-        Brewery: {beer.brewery}
+        Brewery: {highlightText(beer.brewery)}
       </p>
       <span className="flex justify-center space-x-1">
         {renderStars(beer.rating)}

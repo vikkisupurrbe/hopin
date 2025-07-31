@@ -6,9 +6,19 @@ import useBeersContext from "../hooks/useBeersContext";
 function BeerList() {
   const { beers } = useBeersContext();
   const [sortOption, setSortOption] = useState("brewery-asc");
+  const [searchTerm, setSearchTerm] = useState("");
+
+  // Filter beers based on search term
+  const filteredBeers = [...beers].filter((beer) => {
+    const searchLower = searchTerm.toLowerCase();
+    return (
+      beer.name.toLowerCase().includes(searchLower) ||
+      beer.brewery.toLowerCase().includes(searchLower)
+    );
+  });
 
   // Sorting logic
-  const sortedBeers = [...beers].sort((a, b) => {
+  const sortedBeers = filteredBeers.sort((a, b) => {
     if (sortOption === "brewery-asc") {
       return a.brewery.localeCompare(b.brewery);
     } else if (sortOption === "brewery-desc") {
@@ -22,7 +32,11 @@ function BeerList() {
   });
 
   const renderedBeers = sortedBeers.map((beer) => {
-    return <BeerCard key={beer.id} beer={beer} />
+    return <BeerCard
+      key={beer.id}
+      beer={beer}
+      searchTerm={searchTerm}
+    />
   })
 
   return (
@@ -49,10 +63,16 @@ function BeerList() {
 
         {/* Search Bar */}
         <div>
-          <BeerSearch />
+          <BeerSearch onSearch={setSearchTerm} />
         </div>
       </div>
 
+      {/* Show message when no results found */}
+      {filteredBeers.length === 0 && searchTerm && (
+        <p className="text-center font-body text-base text-[#8b5e3c] my-4">
+          No beers found matching "{searchTerm}"
+        </p>
+      )}
 
       <div className='beer-list'>{renderedBeers}</div>
     </div>

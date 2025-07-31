@@ -1,10 +1,11 @@
 import { useState } from "react";
 
-function BeerSearch() {
+function BeerSearch({ onSearch }) {
   const [searchTerm, setSearchTerm] = useState("");
 
   const handleSearchTermChange = (event) => {
     setSearchTerm(event.target.value);
+    onSearch(event.target.value);
   };
 
   return (
