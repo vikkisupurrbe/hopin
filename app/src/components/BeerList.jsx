@@ -1,5 +1,6 @@
 import { useState } from "react";
 import BeerCard from "./BeerCard";
+import BeerSearch from "./BeerSearch";
 import useBeersContext from "../hooks/useBeersContext";
 
 function BeerList() {
@@ -30,20 +31,28 @@ function BeerList() {
         All the craft beers we have reviewed:
       </h2>
 
-      {/* Sorting Options */}
-      <div className="mb-4">
-        <label className="font-body font-medium text-base mr-2">Sort by:</label>
-        <select
-          value={sortOption}
-          onChange={(e) => setSortOption(e.target.value)}
-          className="border border-[#d9b99b] rounded-lg p-2 font-body text-sm"
-        >
-          <option value="brewery-asc">Brewery (A-Z)</option>
-          <option value="brewery-desc">Brewery (Z-A)</option>
-          <option value="rating-asc">Rating (Ascending)</option>
-          <option value="rating-desc">Rating (Descending)</option>
-        </select>
+      <div className="flex justify-center mb-4">
+        {/* Sorting Options */}
+        <div className="mr-2">
+          <label className="font-body font-medium text-base mr-2">Sort by:</label>
+          <select
+            value={sortOption}
+            onChange={(e) => setSortOption(e.target.value)}
+            className="border border-[#d9b99b] rounded-lg p-2 font-body text-sm"
+          >
+            <option value="brewery-asc">Brewery (A-Z)</option>
+            <option value="brewery-desc">Brewery (Z-A)</option>
+            <option value="rating-asc">Rating (Ascending)</option>
+            <option value="rating-desc">Rating (Descending)</option>
+          </select>
+        </div>
+
+        {/* Search Bar */}
+        <div>
+          <BeerSearch />
+        </div>
       </div>
+
 
       <div className='beer-list'>{renderedBeers}</div>
     </div>
